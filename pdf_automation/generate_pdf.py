@@ -22,8 +22,9 @@ pdf.cell(w=0,h=15,text="Description",new_x=XPos.LMARGIN,new_y=YPos.NEXT)
 
 pdf.set_font(family='times',size=12)
 txt1='''The Bengal tiger is a population of the Panthera tigris tigris subspecies. 
-It ranks among the largest of wild cats. It is distributed from India, southern Nepal, Bangladesh, Bhutan to Southwestern China. Its historical range extended to the Indus Basin until the early 19th century, and it is thought to have been present in the Indian subcontinent since the 
-Late Pleistocene about 12,000 to 16,500 years ago. It is threatened by poaching, habitat loss and habitat fragmentation.'''
+It ranks among the largest of wild cats. It is distributed from India, southern Nepal, Bangladesh, Bhutan to Southwestern China. 
+Its historical range extended to the Indus Basin until the early 19th century, and it is thought to have been present in the Indian subcontinent since the 
+Late Pleistocene about 12,000 to 16,500 years ago. It is threatened by poaching, habitat loss and habitat fragmentation. It is also National animal of India'''
 pdf.multi_cell(w=0,h=25,text=txt1,new_x=XPos.LMARGIN,new_y=YPos.NEXT)
 #to have the cells close enoudh we need to det the [h=""] 
 # and add the multiline cell using multi_cell() function
